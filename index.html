@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winijnan Jitniyom | ERP Programmer & Frontend Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', 'Kanit', sans-serif; }
+        html { scroll-behavior: smooth; }
+        .navy-bg { background-color: #0f172a; }
+        .text-navy { color: #0f172a; }
+        
+        
+        .lang-th { display: none; } 
+        body.th-mode .lang-th { display: block; }
+        body.th-mode .lang-en { display: none; }
+    </style>
+</head>
+<body class="bg-white text-slate-800">
+
+    <nav class="sticky top-0 z-50 bg-[#0f172a] backdrop-blur-md border-b border-slate-700">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold tracking-tight text-white">WINIJNAN<span class="text-blue-400">.J</span></h1>
+            
+            <div class="flex items-center gap-6">
+                <ul class="hidden md:flex gap-8 text-sm font-medium text-white">
+                    <li><a href="#home" class="hover:text-blue-400 transition">Home</a></li>
+                    <li><a href="#experience" class="hover:text-blue-400 transition">Experience</a></li>
+                    <li><a href="#skills" class="hover:text-blue-400 transition">Skills</a></li>
+                    <!-- <li><a href="#others" class="hover:text-blue-400 transition">Others</a></li> -->
+                </ul>
+
+                <button onclick="toggleLanguage()" class="bg-slate-800 border border-slate-600 text-white px-3 py-1 rounded text-xs font-bold hover:bg-slate-700 transition">
+                    <span class="lang-en">TH/EN</span><span class="lang-th">EN/TH</span>
+                </button>
+
+                <a href="#contact" class="bg-blue-600 text-white px-5 py-2 rounded-full text-sm font-bold hover:bg-blue-500 transition shadow-md">
+                    Contact
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="pt-24 pb-20 px-6 bg-gradient-to-b from-blue-50 to-white text-center">
+        <div class="max-w-4xl mx-auto">
+            <div class="inline-block px-4 py-1 mb-6 text-xs font-bold tracking-widest text-blue-700 uppercase bg-blue-100 rounded-full">
+                Junior ERP Programmer
+            </div>
+            <h2 class="text-5xl md:text-6xl font-extrabold text-navy mb-6 tracking-tight">
+                Winijnan Jitniyom
+            </h2>
+            
+            <p class="lang-en text-lg text-slate-600 mb-10 max-w-2xl mx-auto leading-relaxed">
+                Specializing in ERP technology development (Dynamics 365 F&O / BC) with a strong background in Frontend Development and a passion for creating seamless User Experiences.
+            </p>
+            <p class="lang-th text-lg text-slate-600 mb-10 max-w-2xl mx-auto leading-relaxed">
+                เชี่ยวชาญด้านการพัฒนาเทคโนโลยี ERP (Dynamics 365 F&O / BC) พร้อมประสบการณ์ด้าน Frontend Development ที่มุ่งเน้นการสร้าง User Experience ที่ดีเยี่ยม
+            </p>
+
+            <div class="flex justify-center gap-4 text-sm font-bold">
+                <a href="#experience" class="bg-slate-900 text-white px-8 py-3.5 rounded-xl hover:bg-blue-700 transition shadow-lg flex items-center justify-center">
+                    <span class="lang-en">View Experience</span><span class="lang-th">ดูประสบการณ์</span>
+                </a>
+                <a href="mailto:Winijnan.2645@gmail.com" class="border-2 border-slate-200 px-8 py-3.5 rounded-xl text-slate-700 hover:border-blue-600 hover:text-blue-600 transition flex items-center justify-center">
+                    <span class="lang-en">Hire Me</span><span class="lang-th">ติดต่อจ้างงาน</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <main class="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-3 gap-12">
+        
+        <div class="space-y-12">
+            <section id="skills">
+                <h3 class="text-sm font-bold text-blue-600 uppercase tracking-widest mb-6">Technical Skills</h3>
+                <div class="space-y-6">
+                    <div>
+                        <h4 class="font-bold text-navy mb-3 text-sm">ERP & Backend</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-slate-100 px-3 py-1 rounded text-xs font-medium">D365 F&O (X++)</span>
+                            <span class="bg-slate-100 px-3 py-1 rounded text-xs font-medium">D365 BC (AL)</span>
+                            <span class="bg-slate-100 px-3 py-1 rounded text-xs font-medium">SQL / MySQL</span>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-navy mb-3 text-sm">Frontend & Mobile</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-slate-100 px-3 py-1 rounded text-xs font-medium">React.js</span>
+                            <span class="bg-slate-100 px-3 py-1 rounded text-xs font-medium">Angular</span>
+                            <span class="bg-slate-100 px-3 py-1 rounded text-xs font-medium">React Native</span>
+                            <span class="bg-slate-100 px-3 py-1 rounded text-xs font-medium">Tailwind CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="education">
+                <h3 class="text-sm font-bold text-blue-600 uppercase tracking-widest mb-6">Education</h3>
+                <div class="border-l-2 border-blue-100 pl-4">
+                    <h4 class="font-bold text-navy text-sm">B.S. in Software Engineering</h4>
+                    <p class="text-xs text-slate-500 mb-1">Walailak University | 2020 – 2024</p>
+                    <p class="text-blue-600 font-bold text-sm">GPA: 3.45</p>
+                </div>
+            </section>
+
+        
+
+            <section>
+                <h3 class="text-sm font-bold text-blue-600 uppercase tracking-widest mb-6">Interests</h3>
+                <ul class="text-sm text-slate-600 space-y-2">
+                    <li>• UI/UX & Frontend Design</li>
+                    <li>• Improving User Experience</li>
+                    <li>• Digital Illustration & Drawing</li>
+                    <li>• Continuous Tech Learning</li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="md:col-span-2 space-y-12">
+            <section id="experience">
+                <h3 class="text-sm font-bold text-blue-600 uppercase tracking-widest mb-8">Professional Experience</h3>
+                
+                <div class="space-y-10">
+                    <div class="group border-l-2 border-slate-100 pl-8 relative">
+                        <div class="absolute w-3 h-3 bg-blue-600 rounded-full -left-[7px] top-2 transition-transform group-hover:scale-150"></div>
+                        <div class="flex justify-between items-start mb-2">
+                            <h4 class="text-xl font-bold text-navy group-hover:text-blue-600 transition">ERP Programmer</h4>
+                            <span class="text-xs font-bold bg-blue-50 text-blue-600 px-3 py-1 rounded-full uppercase">Present</span>
+                        </div>
+                        <p class="text-sm font-semibold text-slate-500 mb-4">Bhatara Progress Co., Ltd. | Oct 2024 – Present</p>
+                        
+                        <ul class="lang-en text-sm text-slate-600 space-y-2 leading-relaxed">
+                            <li>• Develop and customize **D365 F&O (X++)** and **Business Central (AL)** systems.</li>
+                            <li>• Design and implement report layouts for Invoices, POs, and Receipts.</li>
+                            <li>• Develop business logic and validation rules for accounting modules.</li>
+                            <li>• Manage data integration via **Data Entities** for system import/export.</li>
+                            <li>• Resolve daily maintenance (MA) issues and ensure data integrity.</li>
+                        </ul>
+
+                        <ul class="lang-th text-sm text-slate-600 space-y-2 leading-relaxed">
+                            <li>• พัฒนาและปรับแต่งระบบ **D365 F&O (X++)** และ **Business Central (AL)**</li>
+                            <li>• ออกแบบ Layout รายงานสำคัญ เช่น Invoice, PO, และ Receipt</li>
+                            <li>• พัฒนา Business Logic และระบบ Validation สำหรับโมดูลบัญชีและการจัดซื้อ</li>
+                            <li>• จัดการระบบ Import/Export ข้อมูลผ่าน **Data Entities** เพื่อการ Integration</li>
+                            <li>• แก้ไขปัญหาประจำวัน (MA Issues) และจัดการความถูกต้องของข้อมูลในระบบ</li>
+                        </ul>
+                    </div>
+
+                    <div class="group border-l-2 border-slate-100 pl-8 relative">
+                        <div class="absolute w-3 h-3 bg-slate-300 rounded-full -left-[7px] top-2"></div>
+                        <div class="flex justify-between items-start mb-2">
+                            <h4 class="text-xl font-bold text-navy group-hover:text-blue-600 transition">Computerist</h4>
+                            <span class="text-xs font-bold text-slate-400 px-3 py-1 uppercase">June – Sept 2024</span>
+                        </div>
+                        <p class="text-sm font-semibold text-slate-500 mb-4">National Telecom Public Company Limited (NT)</p>
+                        
+                        <p class="lang-en text-sm text-slate-600 leading-relaxed">
+                            Monitored telecom billing systems, analyzed system logs to identify root causes of technical issues, and resolved errors within the live operational environment.
+                        </p>
+                        <p class="lang-th text-sm text-slate-600 leading-relaxed">
+                            ดูแลและ Monitor ระบบ Billing โทรคมนาคม วิเคราะห์ Log เพื่อหาสาเหตุของปัญหาและแก้ไข Error ที่เกิดขึ้นในระบบงานจริง
+                        </p>
+                    </div>
+
+                    <div class="group border-l-2 border-slate-100 pl-8 relative pt-6 border-t border-slate-100">
+                        <div class="absolute w-3 h-3 bg-slate-300 rounded-full -left-[7px] top-8"></div>
+                        <h4 class="text-xl font-bold text-navy mb-2">Software Engineering Intern</h4>
+                        <p class="text-sm font-semibold text-slate-500 mb-4">IICE, Walailak University | Sep 2023 – Apr 2024</p>
+                        
+                        <ul class="lang-en text-sm text-slate-600 space-y-2 leading-relaxed">
+                            <li>• Developed frontend features for web seminar systems using **Angular**.</li>
+                            <li>• Designed UI layouts and implemented core client-side logic.</li>
+                            <li>• Collaborated within an Agile team to deliver high-quality project milestones.</li>
+                        </ul>
+
+                        <ul class="lang-th text-sm text-slate-600 space-y-2 leading-relaxed">
+                            <li>• พัฒนาส่วนหน้า (Frontend) สำหรับระบบเว็บสัมมนาด้วย **Angular**</li>
+                            <li>• ออกแบบ UI Layout และจัดการพื้นฐาน Logic ในฝั่ง Client-side</li>
+                            <li>• ทำงานร่วมกับทีมในรูปแบบ Agile เพื่อส่งมอบงานตาม Deadline</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer id="contact" class="navy-bg text-white py-16 px-6">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="text-center md:text-left">
+                <h3 class="text-2xl font-bold mb-2">Winijnan Jitniyom</h3>
+                <p class="text-slate-400 italic">"Blending creativity with technology"</p>
+            </div>
+            <div class="flex flex-col gap-3 text-sm">
+                <a href="tel:0942217092" class="flex items-center gap-3 hover:text-blue-400 transition">📞 094-221-7092</a>
+                <a href="mailto:Winijnan.2645@gmail.com" class="flex items-center gap-3 hover:text-blue-400 transition">✉️ Winijnan.2645@gmail.com</a>
+                <a href="https://github.com/Winijnanbk" class="flex items-center gap-3 hover:text-blue-400 transition">🔗 github.com/Winijnanbk</a>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto mt-12 pt-8 border-t border-slate-800 text-center text-xs text-slate-500">
+            © 2026 WINIJNAN JITNIYOM. Built with Tailwind CSS.
+        </div>
+    </footer>
+
+    <script>
+        function toggleLanguage() {
+            document.body.classList.toggle('th-mode');
+        }
+    </script>
+</body>
+</html>
